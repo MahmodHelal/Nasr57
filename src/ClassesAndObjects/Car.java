@@ -5,6 +5,12 @@ public class Car {
     String brand;
     int year;
 
+
+
+    public Car(String brand) {
+        this.brand = brand;
+    }
+
     public void walk(){
         System.out.println("Car is walking");
     }
@@ -21,4 +27,6 @@ public class Car {
         System.out.println("Brand is "+ brand);
         System.out.println("Year is "+ year);
     }
+
+
 }

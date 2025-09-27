@@ -2,9 +2,11 @@ package ClassesAndObjects;
 
 public class MainClassForTest {
     public static void main(String[] args) {
-        Car BMW = new Car();
-        Car Fiat = new Car();
-        Car Mercedes = new Car();
+
+
+        Car BMW = new Car("BMW X7");
+        Car Fiat = new Car("FIAT X500");
+        Car Mercedes = new Car("Mercedes C200");
 
 
         BMW.color = "Red";
@@ -24,7 +26,8 @@ public class MainClassForTest {
         Fiat.displayInfo();
         System.out.println("**************");
         BMW.walk();
-
+        Fiat.walk();
+        Mercedes.walk();
 
 
     }

@@ -1,6 +1,12 @@
 package Methods;
 
+import OOP.Animal;
+
 public class LessonFive {
+    Animal animal;
+
+
+
     public static void main(String[] args) {
 
 
@@ -22,7 +28,7 @@ public class LessonFive {
 
     }
 
-    public static void hello(String name){
+    public  void hello(String name){
         System.out.println("Hello "+ name);
     }
 
